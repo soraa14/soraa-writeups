@@ -27,7 +27,7 @@ We start with nmap scan :
 
 ```bash
 
-SStarting Nmap 7.80 ( https://nmap.org ) at 2020-06-18 09:41 WIB
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-18 09:41 WIB
 Nmap scan report for 10.10.238.69
 Host is up (0.20s latency).
 Not shown: 998 closed ports
