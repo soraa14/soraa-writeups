@@ -125,7 +125,7 @@ A few minutes later the password was CRACKED!!
 
 After that we can ssh to the machine with the user we found and the password we crack:
 
-!<img src="{{ site.baseurl }}/assets/images/chewie_thm/ssh.png">
+<img src="{{ site.baseurl }}/assets/images/chewie_thm/ssh.png">
 
 We can finally capture the user.txt in current directory:
 
