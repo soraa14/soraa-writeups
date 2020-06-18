@@ -19,7 +19,7 @@ Link to the room
 
 We start with nmap scan :
 
-### nmap -sC -sV 192.168.100.11
+### nmap -sC -sV 10.10.238.69
 
 - -sC : Equivalent to --script=default
 - -sV : Probe open ports to determine service/version info
@@ -54,7 +54,7 @@ Visiting the webserver we get the following page:
 
 We can try to do directory scan with gobuster and add txt extension:
 
-### gobuster dir -u http://192.168.100.11/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x txt
+### gobuster dir -u http://10.10.238.69/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x txt
 
 - dir : Uses directory/file brutceforcing mode
 - -w : Path to the wordlist
