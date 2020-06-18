@@ -131,7 +131,7 @@ We can finally capture the user.txt in current directory:
 
 <img src="{{ site.baseurl }}/assets/images/chewie_thm/user.png">
 
-For the root flag, first we can use the command `sudo -l` for listng user's privileges or check a specific command:
+For the root flag, first we can use the command `sudo -l` for listing user's privileges or check a specific command:
 
 ```bash
 lia@ubuntu-xenial:~$ sudo -l
