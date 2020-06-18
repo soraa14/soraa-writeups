@@ -51,7 +51,7 @@ We only have 2 ports open: 80 for Apache and 22 for SSH.
 
 Visiting the webserver we get the following page:
 
-![](../assets/images/chewie_thm/web_page.png)
+<img src="{{ site.baseurl }}/assets/images/chewie_thm/web_page.png">
 
 We can try to do directory scan with gobuster and add txt extension:
 
