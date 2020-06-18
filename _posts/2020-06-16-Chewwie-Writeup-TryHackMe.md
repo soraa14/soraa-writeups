@@ -51,7 +51,7 @@ We only have 2 ports open: 80 for Apache and 22 for SSH.
 
 Visiting the webserver we get the following page:
 
-<img src="{{ site.baseurl }}/assets/images/chewie_thm/web_page.png">
+<img src="{{ site.baseurl }}../assets/images/chewie_thm/web_page.png">
 
 We can try to do directory scan with gobuster and add txt extension:
 
@@ -84,7 +84,7 @@ Progress: 5045 / 220561 (2.29%)
 
 We found `notes.txt` and inside we found a username and password for ssh.
 
-![](../assets/images/chewie_thm/note.png)
+<img src="{{ site.baseurl }}../assets/images/chewie_thm/note.png">
 
 But the password was hashed and we have to crack it. There's a lot of ways of cracking password, but here i will use hashcat to crack the hash:
 
@@ -126,11 +126,11 @@ A few minutes later the password was CRACKED!!
 
 After that we can ssh to the machine with the user we found and the password we crack:
 
-![](../assets/images/chewie_thm/ssh.png)
+!<img src="{{ site.baseurl }}../assets/images/chewie_thm/ssh.png">
 
 We can finally capture the user.txt in current directory:
 
-![](../assets/images/chewie_thm/user.png)
+<img src="{{ site.baseurl }}../assets/images/chewie_thm/user.png">
 
 For the root flag, first we can use the command `sudo -l` for listng user's privileges or check a specific command:
 
@@ -146,11 +146,11 @@ User lia may run the following commands on ubuntu-xenial:
 We can run `/usr/bin/env` as sudo. We can abuse that command to gain privilege as root by typing
 <br> `sudo /usr/bin/env /bin/sh` and that's it! We are root :
 
-![](../assets/images/chewie_thm/esc_root.png)
+<img src="{{ site.baseurl }}../assets/images/chewie_thm/esc_root.png">
 
 We can finally capture the root.txt in /root directory:
 
-![](../assets/images/chewie_thm/root.png)
+<img src="{{ site.baseurl }}../assets/images/chewie_thm/root.png">
 
 And that's it! We root the machine. Hope you guys enjoy reading this writeup.
 Thank You :DD
