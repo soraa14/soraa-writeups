@@ -19,11 +19,10 @@ Link to the room
 
 We start with nmap scan :
 
-### nmap -sC -sV -oN nmap 192.168.100.11
+### nmap -sC -sV 192.168.100.11
 
 - -sC : Equivalent to --script=default
 - -sV : Probe open ports to determine service/version info
-- -oN : Output scan in normal
 
 ```bash
 
