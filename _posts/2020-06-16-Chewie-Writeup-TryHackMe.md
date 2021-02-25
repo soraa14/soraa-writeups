@@ -1,23 +1,15 @@
 ---
-title: Chewie Writeup [TryHackMe]
-published: true
+title: Welcome To My Blog!
+published: false
 ---
 
-# [](#header)Intro
+# [](#header)##
 
-This is actually my first ever VM i created and i hope it was an enjoyable machine for all of you to try :DD.
+This is foo bar.
 
-I design this room to be easy for beginners and more importantly i hope all of you enjoy.
+# [](#header)##
 
-Okay let's just get into hacking!!
-
-<a href="https://tryhackme.com/room/chewie">
-Link to the room
-</a>
-
-# [](#header)Enumeration
-
-We start with nmap scan :
+--
 
 ### nmap -sC -sV 10.10.238.69
 
